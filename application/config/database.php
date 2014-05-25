@@ -48,9 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost:8889';
-$db['default']['username'] = 'root';
-$db['default']['password'] = 'root';
+$db['default']['hostname'] = 'dbbetterdays.czacoukkusos.us-east-1.rds.amazonaws.com:3306';
+$db['default']['username'] = 'polegar';
+$db['default']['password'] = 'belharra22';
 $db['default']['database'] = 'BetterDays';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
