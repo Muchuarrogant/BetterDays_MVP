@@ -1,8 +1,9 @@
-<link rel="stylesheet" type="text/css" href="../../assets/css/general.css">
+<link rel="stylesheet" type="text/css" href="<?php echo css_url('general') ?>">
+
 
 <div class="logoContent">
 	<p>
- 	 	<img src="../../assets/images/LogoBetterDays.png" alt="logo" />
+ 	 	<img src="<?php echo img_url('LogoBetterDays.png') ?>" alt="logo" />
  	 	<span class = "BDTitle">Better Days</span></br>
  	 	<span class ="BDQuote">Let's make the revolution of giving all together !</span>
 	</p>
