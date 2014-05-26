@@ -4,6 +4,7 @@ class Accueil extends CI_Controller
 	
 	public function __construct()
 	{
+		
 		parent::__construct();
 	}
 		
@@ -14,11 +15,11 @@ class Accueil extends CI_Controller
 
 	public function accueil()
 	{
+		$this->load->view('theme/logo');
+
 		$data = array();
 		$data['pseudo'] = 'Polegar';
 		$data['email'] = 'denis.casselle@gmail.com';
 		$data['en_ligne'] = true;
-
-		$this->load->view('accueilView', $data);
 	}
 }
